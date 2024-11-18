@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>European Quality</title>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Comfortaa', system-ui, -apple-system, sans-serif;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 48px;
+    }
+
+    .header img {
+      width: 50px;
+    }
+
+    .title {
+      font-family: 'Quicksand', 'Comfortaa', sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      color: #6B5BB0;
+      font-size: 28px;
+      margin: 0;
+      letter-spacing: 0.5px;
+    }
+
+    .features {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 24px;
+    }
+
+    .feature {
+      flex: 1;
+      width: calc(25% - 18px);
+      min-width: 250px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .check-icon {
+      margin-bottom: 16px;
+    }
+
+    .check-icon img {
+      width: 24px;
+      height: 24px;
+    }
+
+    .feature-text {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      height: 200px;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .feature p {
+      color: #666;
+      font-size: 14px;
+      line-height: 1.6;
+      margin: 0;
+      text-align: center;
+    }
+
+    @media (max-width: 1100px) {
+      .feature {
+        width: calc(50% - 12px);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .feature {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="european-union.webp" alt="European Union Logo">
+      <h1 class="title">European Quality</h1>
+    </div>
+    
+    <div class="features">
+      <div class="feature">
+        <div class="check-icon">
+          <img src="check.png" alt="Check Icon">
+        </div>
+        <div class="feature-text">
+          <p>Tenemos un equipo local en Ecuador, multidisciplinario capacitado con tendencias y metodologías europeas.</p>
+        </div>
+      </div>
+
+      <div class="feature">
+        <div class="check-icon">
+          <img src="check.png" alt="Check Icon">
+        </div>
+        <div class="feature-text">
+          <p>Te aseguramos retorno de inversión, resultados contundentes y un enfoque humano en todo lo que hacemos.</p>
+        </div>
+      </div>
+
+      <div class="feature">
+        <div class="check-icon">
+          <img src="check.png" alt="Check Icon">
+        </div>
+        <div class="feature-text">
+          <p>Te acompañamos en este apasionante camino y te brindamos a tu empresa estrategias direccionadas hacia la efectividad.</p>
+        </div>
+      </div>
+
+      <div class="feature">
+        <div class="check-icon">
+          <img src="check.png" alt="Check Icon">
+        </div>
+        <div class="feature-text">
+          <p>Garantía europeo en Ecuador: te garantizamos bajo contrato en todos los servicios acordados resultados garantizados.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
